@@ -1,0 +1,7 @@
+lib/__tests__
+.*
+
+#Gitignore
+node_modules
+coverage
+npm-debug.log

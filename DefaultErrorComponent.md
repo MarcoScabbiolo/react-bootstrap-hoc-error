@@ -8,7 +8,7 @@ The error will be displayed in an `Alert` wrapper . If the error has details a `
 
 |Key|Type|Default|Description|
 |-|-|-|-|
-|`error`|`string|Error`|`undefined`|Error to display|
+|`error`|`string`,`Error`|`undefined`|Error to display|
 |`classNamePrefix`|`string`|`errorhoc`|Used in every element|
 |`bsStyle`|`string`|`danger`|Bootstrap style for the `Alert`|
 |`glyph`|`string`|`danger`|Glyph to display. Set it to `undefined` to hide|

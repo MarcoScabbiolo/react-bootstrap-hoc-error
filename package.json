@@ -8,8 +8,8 @@
     "email": "scabbiolo.marco@gmail.com",
     "url": ""
   },
-  "files": ["lib"],
-  "main": "lib/index.js",
+  "files": ["dist"],
+  "main": "dist/index.js",
   "keywords": ["react", "boostrap", "hoc", "error", "global"],
   "devDependencies": {
     "babel-cli": "^6.26.0",

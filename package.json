@@ -8,8 +8,8 @@
     "email": "scabbiolo.marco@gmail.com",
     "url": ""
   },
-  "files": ["dist"],
-  "main": "dist/index.js",
+  "files": ["lib"],
+  "main": "lib/index.js",
   "keywords": ["react", "boostrap", "hoc", "error", "global"],
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -38,7 +38,7 @@
     "prepublish": "nsp check && npm run dist",
     "pretest": "eslint . --fix",
     "precommit": "lint-staged",
-    "dist": "babel lib/index.js --out-file dist/index.js",
+    "dist": "babel src --out-dir lib --ignore src/__tests__",
     "test": "jest --coverage"
   },
   "lint-staged": {

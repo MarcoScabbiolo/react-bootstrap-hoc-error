@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-hoc-error",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "HOC to display errors related to a component",
   "homepage": "",
   "author": {

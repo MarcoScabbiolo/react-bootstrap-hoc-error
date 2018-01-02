@@ -89,7 +89,11 @@ describe('default error component', () => {
     chai.expect(detailsWraper.childAt(0).contains('Less')).to.eq(true);
     chai
       .expect(
-        detailsWraper.contains(<Well className="errorhoc-details">Test stack</Well>)
+        detailsWraper.contains(
+          <Well className="errorhoc-details">
+            <pre>Test stack</pre>
+          </Well>
+        )
       )
       .to.eq(true);
   });
@@ -110,7 +114,9 @@ describe('default error component', () => {
               <Button bsStyle="info" className="test-details-toggle">
                 Less
               </Button>
-              <Well className="test-details">Test stack</Well>
+              <Well className="test-details">
+                <pre>Test stack</pre>
+              </Well>
             </div>
           </Alert>
         )
@@ -133,7 +139,9 @@ describe('default error component', () => {
               <Button bsStyle="info" className="details-toggle">
                 Less
               </Button>
-              <Well className="details">Test stack</Well>
+              <Well className="details">
+                <pre>Test stack</pre>
+              </Well>
             </div>
           </Alert>
         )

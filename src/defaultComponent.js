@@ -84,7 +84,9 @@ class Error extends PureComponent {
                 : this.props.showDetailsLabel}
             </Button>
             {this.state.details ? (
-              <Well className={this.className('details')}>{this.details}</Well>
+              <Well className={this.className('details')}>
+                <pre>{this.details}</pre>
+              </Well>
             ) : (
               undefined
             )}

@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-hoc-error",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "HOC to display errors related to a component",
   "homepage": "",
   "author": {
@@ -8,17 +8,9 @@
     "email": "scabbiolo.marco@gmail.com",
     "url": ""
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "main": "lib/index.js",
-  "keywords": [
-    "react",
-    "boostrap",
-    "hoc",
-    "error",
-    "global"
-  ],
+  "keywords": ["react", "boostrap", "hoc", "error", "global"],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.3",
@@ -50,22 +42,12 @@
     "test": "jest --coverage"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
     "parser": "babel-eslint",
-    "extends": [
-      "xo",
-      "prettier",
-      "plugin:react/recommended"
-    ],
+    "extends": ["xo", "prettier", "plugin:react/recommended"],
     "env": {
       "jest": true,
       "node": true
@@ -79,9 +61,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "MarcoScabbiolo/react-bootstrap-hoc-error",
   "jest": {
